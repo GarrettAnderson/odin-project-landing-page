@@ -13,17 +13,24 @@ body {
 
 header, footer {
   background-color: #1F2937;
+  padding: 2rem 0;
 }
 
 header > section {
   display: flex;
   align-items: center;
-  max-width: 700px;
+  max-width: 920px;
   margin: 0 auto;
 }
 
 header > nav {
   display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.website-title {
+  width: 50%;
 }
 
 .website-title > h1 {
@@ -55,8 +62,8 @@ header > nav > ol > li {
 }
 
 header > section > img {
-  width: 300px;
-  height: 150px;
+  width: 50%;
+  height: 100%;
 }
 
 .projects img {
