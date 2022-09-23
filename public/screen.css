@@ -66,12 +66,13 @@ header > nav > h1 {
 header > nav > ol {
   list-style: none;
   display: flex;
+  padding: 0
 }
 
 header > nav > ol > li {
   font-size: 18px;
   color: #E5E7EB;
-  
+  width: 6rem;
 }
 
 header > section > img {
