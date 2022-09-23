@@ -11,7 +11,7 @@ body {
   min-height: 100%;
 }
 
-header, footer {
+header {
   background-color: #1F2937;
   padding: 2rem 0;
 }
@@ -34,15 +34,27 @@ header > nav {
   width: 50%;
 }
 
-.website-title > h1 {
+.website-title h1 {
   font-size: 48px;
   font-weight: 900;
-  color: #F9FAF8
+  color: #F9FAF8;
+  margin-top: -3rem;
 }
 
-.website-title > p {
+.website-title p {
   font-size: 18px;
   color: #E5E7EB;
+  width: 95%;
+  margin-top: -2rem;
+}
+
+.website-title button {
+  color: #fff;
+  border: none;
+  background-color: #3882F6;
+  height: 2.5rem;
+  padding: 0 2rem;
+  border-radius: 5px;
 }
 
 header > nav > h1 {
@@ -75,6 +87,12 @@ header > section > img {
   margin: 0 10rem;
 }
 
+.projects h1 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bolder;
+}
+
 .projects ol {
   display: flex;
   list-style: none;
@@ -102,9 +120,25 @@ header > section > img {
   align-items: center;
   font-size: 36px;
   font-weight: 100;
+}
+
+blockquote {
+  width: 75%;
   font-style: italic;
+  margin: 0 auto;
+  line-height: 2.75rem;
 }
 
 figcaption {
   text-align: right;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #1F2937;
+  padding: 2rem 0;
 }
