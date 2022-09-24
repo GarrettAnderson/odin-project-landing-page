@@ -170,5 +170,7 @@ figcaption {
 
 footer {
   background-color: #1F2937;
-  padding: 2rem 0;
+  padding: 1rem 0;
+  color: #fff;
+  text-align: center;
 }
